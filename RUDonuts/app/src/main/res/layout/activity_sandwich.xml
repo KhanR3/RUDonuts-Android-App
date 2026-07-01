@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewSandwichTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sandwich_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/imageViewSandwich"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/sandwich"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/sandwich_title"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/textViewBreadLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sandwich_bread_label"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerBread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/textViewProteinLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sandwich_protein_label"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerProtein"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/textViewAddOnsLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sandwich_addons_label"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:id="@+id/checkBoxLettuce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sandwich_addon_lettuce" />
+
+        <CheckBox
+            android:id="@+id/checkBoxTomatoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sandwich_addon_tomatoes" />
+
+        <CheckBox
+            android:id="@+id/checkBoxOnions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sandwich_addon_onions" />
+
+        <CheckBox
+            android:id="@+id/checkBoxCheese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sandwich_addon_cheese" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/textViewQuantityLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sandwich_quantity"
+                android:textSize="16sp"
+                android:layout_gravity="center_vertical"
+                android:paddingEnd="8dp" />
+
+            <EditText
+                android:id="@+id/editTextSandwichQuantity"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="1"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewSandwichSubtotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sandwich_subtotal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp" />
+
+        <Button
+            android:id="@+id/buttonAddSandwichToOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sandwich_add_to_order"
+            android:textSize="16sp"
+            android:padding="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>

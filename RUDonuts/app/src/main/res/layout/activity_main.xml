@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewCafeLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_welcome"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="48dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/donut_icon"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/main_order_donuts"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/buttonOrderDonuts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/main_order_donuts"
+            android:textSize="18sp"
+            android:padding="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/coffee_icon"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/main_order_coffee"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/buttonOrderCoffee"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/main_order_coffee"
+            android:textSize="18sp"
+            android:padding="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/sandwich_icon"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/main_order_sandwiches"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/buttonOrderSandwiches"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/main_order_sandwiches"
+            android:textSize="18sp"
+            android:padding="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/cart_icon"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/main_view_orders"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/buttonViewOrders"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/main_view_orders"
+            android:textSize="18sp"
+            android:padding="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/list_icon"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/main_view_order_history"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/buttonOrderHistory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/main_view_order_history"
+            android:textSize="18sp"
+            android:padding="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

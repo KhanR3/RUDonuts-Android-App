@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">RU Cafe</string>
+    
+    <!-- Main Activity -->
+    <string name="main_welcome">Welcome to RU Cafe</string>
+    <string name="main_order_donuts">Order Donuts</string>
+    <string name="main_order_coffee">Order Coffee</string>
+    <string name="main_view_orders">View Orders</string>
+    
+    <!-- Donut Activity -->
+    <string name="donut_title">Order Donuts</string>
+    <string name="donut_select_prompt">Select your donuts:</string>
+    <string name="donut_quantity">Quantity:</string>
+    <string name="donut_add_to_order">Add to Order</string>
+    <string name="donut_subtotal">Subtotal: $0.00</string>
+    <string name="donut_yeast">Yeast Donut</string>
+    <string name="donut_cake">Cake Donut</string>
+    <string name="donut_hole">Donut Hole</string>
+    <string name="donut_seasonal">Seasonal Donut</string>
+    
+    <!-- Donut Flavors -->
+    <string name="flavor_glazed">Glazed</string>
+    <string name="flavor_chocolate">Chocolate</string>
+    <string name="flavor_strawberry">Strawberry</string>
+    <string name="flavor_vanilla">Vanilla</string>
+    <string name="flavor_jelly">Jelly Filled</string>
+    <string name="flavor_boston_cream">Boston Cream</string>
+    <string name="flavor_powdered">Powdered Sugar</string>
+    <string name="flavor_cinnamon">Cinnamon Sugar</string>
+    <string name="flavor_maple">Maple</string>
+    <string name="flavor_blueberry">Blueberry</string>
+    <string name="flavor_old_fashioned">Old Fashioned</string>
+    <string name="flavor_red_velvet">Red Velvet</string>
+    <string name="flavor_pumpkin">Pumpkin Spice</string>
+    <string name="flavor_lemon">Lemon</string>
+    
+    <!-- Coffee Activity -->
+    <string name="coffee_title">Order Coffee</string>
+    <string name="coffee_size_label">Cup Size:</string>
+    <string name="coffee_size_short">Short</string>
+    <string name="coffee_size_tall">Tall</string>
+    <string name="coffee_size_grande">Grande</string>
+    <string name="coffee_size_venti">Venti</string>
+    <string name="coffee_quantity">Quantity:</string>
+    <string name="coffee_addins_label">Add-ins:</string>
+    <string name="coffee_cream">Cream</string>
+    <string name="coffee_milk">Milk</string>
+    <string name="coffee_syrup">Syrup</string>
+    <string name="coffee_caramel">Caramel</string>
+    <string name="coffee_whipped_cream">Whipped Cream</string>
+    <string name="coffee_add_to_order">Add to Order</string>
+    <string name="coffee_subtotal">Subtotal: $0.00</string>
+    
+    <!-- Order Summary Activity -->
+    <string name="order_title">Order Summary</string>
+    <string name="order_items_label">Current Order:</string>
+    <string name="order_subtotal_label">Subtotal:</string>
+    <string name="order_tax_label">Sales Tax (6.625%):</string>
+    <string name="order_total_label">Total:</string>
+    <string name="order_place_order">Place Order</string>
+    <string name="order_remove_item">Remove Item</string>
+    <string name="order_clear_all">Clear All</string>
+    
+    <!-- Messages -->
+    <string name="toast_item_added">Item added to order</string>
+    <string name="toast_item_removed">Item removed from order</string>
+    <string name="toast_order_placed">Order placed successfully!</string>
+    <string name="toast_order_empty">Order is empty</string>
+    <string name="toast_select_item">Please select an item</string>
+    <string name="toast_invalid_quantity">Please enter a valid quantity</string>
+    
+    <!-- Alert Dialog -->
+    <string name="dialog_confirm_title">Confirm Order</string>
+    <string name="dialog_confirm_message">Place this order?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_remove_title">Remove Item</string>
+    <string name="dialog_remove_message">Remove this item from order?</string>
+    <string name="dialog_remove_multiple_message">Remove %d items from order?</string>
+    <string name="dialog_clear_title">Clear Order</string>
+    <string name="dialog_clear_message">Remove all items from order?</string>
+    
+    <!-- Sandwich Activity -->
+    <string name="sandwich_title">Order Sandwich</string>
+    <string name="sandwich_bread_label">Bread Type:</string>
+    <string name="sandwich_bread_bagel">Bagel</string>
+    <string name="sandwich_bread_wheat">Wheat</string>
+    <string name="sandwich_bread_sourdough">Sourdough</string>
+    <string name="sandwich_protein_label">Protein:</string>
+    <string name="sandwich_protein_beef">Beef</string>
+    <string name="sandwich_protein_chicken">Chicken</string>
+    <string name="sandwich_protein_salmon">Salmon</string>
+    <string name="sandwich_addons_label">Add-ons:</string>
+    <string name="sandwich_addon_lettuce">Lettuce (+$0.30)</string>
+    <string name="sandwich_addon_tomatoes">Tomatoes (+$0.30)</string>
+    <string name="sandwich_addon_onions">Onions (+$0.30)</string>
+    <string name="sandwich_addon_cheese">Cheese (+$1.00)</string>
+    <string name="sandwich_quantity">Quantity:</string>
+    <string name="sandwich_add_to_order">Add to Order</string>
+    <string name="sandwich_subtotal">Subtotal: $0.00</string>
+    <string name="main_order_sandwiches">Order Sandwiches</string>
+    
+    <!-- Order History Activity -->
+    <string name="order_history_title">Order History</string>
+    <string name="placed_orders">Placed Orders:</string>
+    <string name="order_details">Order Details:</string>
+    <string name="select_order_prompt">Select an order to view details</string>
+    <string name="no_orders_placed">No orders have been placed yet</string>
+    <string name="button_cancel_order">Cancel Order</string>
+    <string name="toast_select_order">Please select an order to cancel</string>
+    <string name="toast_order_cancelled">Order cancelled successfully</string>
+    <string name="dialog_cancel_title">Cancel Order</string>
+    <string name="main_view_order_history">Order History</string>
+    
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="price_zero">$0.00</string>
+</resources>
