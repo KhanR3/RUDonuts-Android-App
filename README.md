@@ -258,44 +258,6 @@ git clone https://github.com/KhanR3/RUDonuts-Android-App.git
 
 ---
 
-## 📸 Screenshots
-
-Screenshots of the application's major screens can be added here.
-
-Recommended screenshots include:
-
-- Main screen
-- Donut selection screen
-- Coffee ordering screen
-- Sandwich ordering screen
-- Order summary
-- Order history
-
-Example:
-
-```markdown
-![Main Screen](screenshots/main-screen.png)
-```
-
----
-
-## 🎥 Demonstration
-
-Demonstration videos can be linked here to show the application's functionality.
-
-Recommended demonstrations include:
-
-- Navigating the application
-- Selecting and customizing donuts
-- Adding products to an order
-- Reviewing an order
-- Viewing order history
-- Cancelling an order
-
-Large video files are not stored directly in this repository; external video links can be added here.
-
----
-
 ## 📚 What This Project Demonstrates
 
 This project provided hands-on experience with:
@@ -317,15 +279,7 @@ This project provided hands-on experience with:
 
 ---
 
-## 🎓 Project Context
-
-RUDonuts was developed as part of a **Software Methodology** project using Java and Android Studio.
-
-The project focused on applying software development concepts to a functional Android application while working with multiple application components, user interfaces, application state, and object-oriented design.
-
----
-
-## 👤 Author
+## 👤 Authors
 
 ### Raahil Khan
 
@@ -339,20 +293,7 @@ Interested in:
 - Database & Data Roles
 - Cybersecurity
 
-### Links
-
-- 💻 GitHub: [KhanR3](https://github.com/KhanR3)
-- 💼 LinkedIn: [Raahil Khan](https://www.linkedin.com/in/raahilkhan3)
-
----
-
-## ⭐ Related Projects
-
-Check out my other projects on GitHub, including:
-
-- **HMDA Database & Natural Language → SQL Platform**
-- **FIFA World Cup 2026 Predictor**
-- **Vehicle Management System**
+### Collaborated with Rahul Battula
 
 ---
 
